@@ -1,14 +1,15 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Form from "../components/Form";
+import Register from "../components/Register";
+import Home from "../components/Home";
 
 function Router() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Form />} />
-          <Route path="/register" element={<Form />} />
+          <Route path="/" element={<Home />}/>
+          <Route path="/register" element={<Register />} />
         </Routes>
       </BrowserRouter>
     </>

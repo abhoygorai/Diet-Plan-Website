@@ -1,0 +1,56 @@
+.register-page-main-portion {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.register-page-details-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  width: 20%;
+  padding: 20px 40px;
+  /* background-color: #d7f3d8; */
+  background: linear-gradient(135deg, #aff3b2, #b6fade);
+  /* border: solid 4px #8bcc8d; */
+  border-radius: 40px;
+}
+
+.register-page-details-form input {
+  height: 45px;
+  border: solid 2px #43ae6e73;
+  border-radius: 10px;
+  outline: none;
+  margin: 0 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: 0.3s ease;
+}
+
+.register-page-details-form input:focus {
+  box-shadow: 0 0 5pt 2pt rgba(138, 199, 162, 0.529);
+}
+
+.register-page-details-form button {
+    height: 50px;
+    border-radius: 50px;
+    width: 200px;
+    background: linear-gradient(135deg, #43AE6D, #ACDE42);
+    cursor: pointer;
+    color: white;
+    font-size: 1.6rem;
+    border: 0;
+    padding: 0 30px;
+    transition: 0.3s ease;
+    margin: 30px 0 10px 10px;
+  }
+
+.label {
+  color: rgb(85, 85, 85);
+  font-size: 1.3rem;
+  margin: 10px 5px;
+}
+
+
+
