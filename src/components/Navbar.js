@@ -23,7 +23,7 @@ function Navbar() {
               <a href="contact.html">Contact</a>
             </li>
             <li>
-              <a href="signup.html">Login in</a>
+              <button href="signup.html" id="login-id-button">Login</button>
             </li>
           </ul>
         </div>

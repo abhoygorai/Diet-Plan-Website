@@ -15,6 +15,7 @@ function Home() {
             <button className="get-started-button">Get Started</button>
           </Link>
         </div>
+        <img src="page-image.png" className="main-page-hero-image"/>
       </div>
     </>
   );

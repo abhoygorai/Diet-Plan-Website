@@ -33,3 +33,10 @@
 .get-started-button:hover {
   box-shadow: 0 0 10px #43ae6e95;
 }
+
+.main-page-hero-image{
+  position: absolute;
+  right: 15%;
+  top: 25%;
+  width: 70vh;
+}

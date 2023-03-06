@@ -1,45 +1,59 @@
-#header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px;
-    z-index: 10;
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  z-index: 10;
 }
 
-#navbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#navbar li{
-    list-style: none;
-    padding: 0 40px;
-    position: relative;
+#navbar li {
+  list-style: none;
+  padding: 0 40px;
+  position: relative;
 }
 
-#navbar li a{
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: 600;
-    color: #1a1a1a;
-    transition: 0.3s ease;
+#navbar li a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
 }
 
 #navbar li a:hover,
-#navbar li a.active{
-    color: #43AE6D;
-
+#navbar li a.active {
+  color: #43ae6d;
 }
 
 #navbar li a.active::after,
-#navbar li a:hover::after{
-    content: "";
-    width: 30%;
-    height: 2px;
-    background: #43AE6D;
-    position: absolute;
-    bottom: -4px;
-    left: 20px;
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #43ae6d;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+#login-id-button {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #43ae6d, #acde42);
+  cursor: pointer;
+  color: white;
+  font-size: 1.6rem;
+  border: 0;
+  transition: 0.3s ease;
+}
+
+#login-id-button:hover {
+  box-shadow: 0 0 10px #43ae6e95;
 }

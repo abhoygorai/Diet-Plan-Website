@@ -19,6 +19,7 @@
 
 .register-page-details-form input {
   height: 45px;
+  width: 340px;
   border: solid 2px #43ae6e73;
   border-radius: 10px;
   outline: none;
@@ -32,25 +33,41 @@
   box-shadow: 0 0 5pt 2pt rgba(138, 199, 162, 0.529);
 }
 
-.register-page-details-form button {
-    height: 50px;
-    border-radius: 50px;
-    width: 200px;
-    background: linear-gradient(135deg, #43AE6D, #ACDE42);
-    cursor: pointer;
-    color: white;
-    font-size: 1.6rem;
-    border: 0;
-    padding: 0 30px;
-    transition: 0.3s ease;
-    margin: 30px 0 10px 10px;
-  }
+#register-page-submit-button {
+  height: 50px;
+  border-radius: 50px;
+  width: 200px;
+  background: linear-gradient(135deg, #43ae6d, #acde42);
+  cursor: pointer;
+  color: white;
+  font-size: 1.6rem;
+  border: 0;
+  padding: 0 30px;
+  transition: 0.3s ease;
+  margin: 30px 0 10px 10px;
+}
 
-.label {
+.register-page-details-form .label {
   color: rgb(85, 85, 85);
   font-size: 1.3rem;
   margin: 10px 5px;
 }
 
+.register-page-hero-image {
+  position: absolute;
+  right: 15%;
+  top: 25%;
+  width: 70vh;
+}
 
+.register-page-small-div{
+  display: flex;
+}
 
+.register-page-small-div p{
+  padding-left: 10px;
+}
+
+.register-page-small-div input{
+  width: 146px;
+}
